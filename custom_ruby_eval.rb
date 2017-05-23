@@ -1,17 +1,3 @@
-=begin
-	
-Write a method that takes a string and evaluates the mathematical expression.  Assume all inputs are valid expressions and ignore order of operations.
-
-For example:
-
-"5+5" => 10
-"158+18+60-2"
-"20/4-2" => 3
-
-=end
-
-
-
 #run through the string, split the string based on presence of operators (+-/*)
 
 def main(input = "5+5")
