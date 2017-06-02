@@ -13,4 +13,3 @@ end
 def s(x)
 	x.to_s.chars.map{|el| el.to_i}.inject(:+)
 end
-
