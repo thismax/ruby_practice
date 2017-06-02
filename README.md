@@ -1,4 +1,4 @@
-# ruby_practice THIS IS A TEST
+# ruby_practice
 
 custom_ruby_eval
 ---------------------
