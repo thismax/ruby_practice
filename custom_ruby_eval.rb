@@ -1,14 +1,12 @@
-#run through the string, split the string based on presence of operators (+-/*)
-
 def main(input = "5+5")
 
-	#return str unless ["*", "-", "+", "/"].include?(str)
 	locations = operator_locations(input)
 	index = locations.values.flatten.sort
 	start = 0
 	total = 0
 
 	index.each_with_index do |el, i|
+
 		mid = el
 		if index[i+1]
 			fin = index[i+1]
@@ -24,6 +22,8 @@ def main(input = "5+5")
 	puts total
 
 end
+
+
 
 def maths(start, mid, fin, input)
 	
@@ -57,6 +57,7 @@ def operator_locations(str)
 
 	arr = ["*", "-", "+", "/"]
 	operator_hash = Hash.new{|hsh,key| hsh[key] = []}
+
 	str.chars.each_with_index do |ch, i|
 		if arr.include?(ch)
 			operator_hash[ch] << i

@@ -1,6 +1,6 @@
 # Brute force approach.  
 
-def stringsRearrangement(inputArray)
+def strings_rearrangement(inputArray)
 
 	perms = inputArray.permutation.to_a   
 
@@ -33,6 +33,6 @@ def compare_strings(string1, string2)
 		count += 1 if string1[i] != string2[i]
 	end
 
-	count == 1 ? true : false
+	return count == 1
 
 end

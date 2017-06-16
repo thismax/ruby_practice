@@ -1,4 +1,4 @@
-def comfortableNumbers(l, r)
+def comfortable_numbers(l, r)
     n = 0 
     for a in l..r
         for b in (a+1)..[a+s(a),r].min
