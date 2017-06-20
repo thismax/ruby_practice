@@ -1,5 +1,10 @@
 # ruby_practice
 
+chunk
+---------------------
+
+This method takes an array of arbitrary length and a number parameter and returns a nested array and "chunks" the array's elements into subarrays of a specified length.  Functionally similar to the built-in Ruby method `each_slice`.
+
 custom_ruby_eval
 ---------------------
 
@@ -15,3 +20,4 @@ For example, inputArray = ["aba", "bbb", "bab"], the output should be
 stringsRearrangement(inputArray) = false;
 
 With inputArray = ["ab", "bb", "aa"], the output should be true, because strings can be rearranged in the following way: "aa", "ab", "bb".
+
