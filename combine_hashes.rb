@@ -20,4 +20,4 @@ end
 hash_a = {:a => 1, :b => 2, :c => 3, :d => "hi"}
 hash_b = {:a => 2, :d => 4, :e => 5}
 
-combine(hash_a, hash_b)
+p combine(hash_a, hash_b)

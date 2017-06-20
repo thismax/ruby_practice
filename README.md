@@ -5,6 +5,14 @@ chunk
 
 This method takes an array of arbitrary length and a number parameter and returns a nested array and "chunks" the array's elements into subarrays of a specified length.  Functionally similar to the built-in Ruby method `each_slice`.
 
+
+combine_hashes
+---------------------
+
+Merges two hashes into one.  If there are duplicate keys, an array is created in which the two associated values are stored, and this array becomes the new value associated with the key in our output hash.
+
+
+
 custom_ruby_eval
 ---------------------
 
