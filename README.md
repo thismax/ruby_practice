@@ -38,7 +38,7 @@ With `input_array = ["ab", "bb", "aa"]`, the output should be `true`, because st
 xbonacci
 ---------------------
 
-The fibonacci sequence takes the previous two numbers in the sequence and add them together to create the next number.  In Xbonacci, the sum of the previous `x` numbers (instead of the previous 2 numbers) of the sequence becomes the next number in the sequence.  This method takes two arguments: the starting sequence with `x` number of elements and an integer `N`. The method then returns the first N elements in the given sequence.
+The fibonacci sequence takes the previous two numbers in the sequence and add them together to create the next number.  In xbonacci, the sum of the previous `x` numbers (instead of the previous 2 numbers) of the sequence becomes the next number in the sequence.  This method takes two arguments: the starting sequence with `x` number of elements and an integer `n`. The method then returns the first `n` elements in the given sequence.
 
 ```ruby
 xbonacci([1, 1], 5) => [1, 1, 2, 3, 5]
