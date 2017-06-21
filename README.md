@@ -32,5 +32,5 @@ Checks to see if, in an array of equal length strings, it's possible to rearrang
 For example, `input_array = ["aba", "bbb", "bab"]`, the output should be
 `strings_rearrangement(input_array) = false`;
 
-With `input_array = ["ab", "bb", "aa"]`, the output should be true, because strings can be rearranged in the following way: "aa", "ab", "bb".
+With `input_array = ["ab", "bb", "aa"]`, the output should be `true`, because strings can be rearranged in the following way: "aa", "ab", "bb".
 

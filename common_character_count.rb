@@ -1,4 +1,5 @@
 def common_character_count(s1, s2)
+  
     h1 = Hash.new(0)
     h2 = Hash.new(0)
     
@@ -19,5 +20,3 @@ def common_character_count(s1, s2)
     arr.reduce(:+)
     
 end
-
-p common_character_count("balls", "llba")
