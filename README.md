@@ -11,6 +11,12 @@ combine_hashes
 
 Merges two hashes into one.  If there are duplicate keys, an array is created in which the two associated values are stored, and this array becomes the new value associated with the key in our output hash.
 
+```ruby
+hash_a = {:a => 1, :b => 2, :c => 3}
+hash_b = {:a => 2, :d => 4, :e => 5}
+combine(hash_a, hash_b) #=> {:a => [1,2], :b => 2, :c => 3, :d => 4, :e => 5}
+```
+
 
 common_character_count
 ---------------------
