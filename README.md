@@ -21,7 +21,13 @@ combine(hash_a, hash_b) #=> {:a => [1,2], :b => 2, :c => 3, :d => 4, :e => 5}
 common_character_count
 ---------------------
 
-Returns the total number of occurences characters are used in two strings.  For example, if `s1 = "Dr. Jimes Tooper"` and `s2 = "Dr. Bilb Onoo"`, `common_character_count(s1,s2) #=> 8`
+Returns the total number of occurences characters are used in two strings.
+
+```ruby
+s1 = "Dr. Jimes Tooper"
+s2 = "Dr. Bilb Onoo"
+common_character_count(s1,s2) #=> 8 (3 from "Dr.", 2 empty spaces, 2 lower case "o"
+```
 
 
 
