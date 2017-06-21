@@ -1,6 +1,4 @@
-all_longest_strings(inputArray)
-
-def commonCharacterCount(s1, s2)
+def common_character_count(s1, s2)
     h1 = Hash.new(0)
     h2 = Hash.new(0)
     
