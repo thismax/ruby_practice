@@ -19,3 +19,5 @@ def common_character_count(s1, s2)
     arr.reduce(:+)
     
 end
+
+p common_character_count("balls", "llba")

@@ -1,8 +1,8 @@
 # Brute force approach.  
 
-def strings_rearrangement(inputArray)
+def strings_rearrangement(input_array)
 
-	perms = inputArray.permutation.to_a   
+	perms = input_array.permutation.to_a   
 
 	perms.each do |sub_array|
 

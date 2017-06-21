@@ -12,6 +12,11 @@ combine_hashes
 Merges two hashes into one.  If there are duplicate keys, an array is created in which the two associated values are stored, and this array becomes the new value associated with the key in our output hash.
 
 
+common_character_count
+---------------------
+
+Returns the total number of characters that occur in both strings.  For example
+
 
 custom_ruby_eval
 ---------------------
@@ -24,8 +29,8 @@ strings_rearrangement
 
 Checks to see if, in an array of equal length strings, it's possible to rearrange the strings such that the strings at consecutive positions in the array differ by exactly one character.
 
-For example, inputArray = ["aba", "bbb", "bab"], the output should be
-stringsRearrangement(inputArray) = false;
+For example, `input_array = ["aba", "bbb", "bab"]`, the output should be
+`strings_rearrangement(input_array) = false`;
 
-With inputArray = ["ab", "bb", "aa"], the output should be true, because strings can be rearranged in the following way: "aa", "ab", "bb".
+With `input_array = ["ab", "bb", "aa"]`, the output should be true, because strings can be rearranged in the following way: "aa", "ab", "bb".
 
