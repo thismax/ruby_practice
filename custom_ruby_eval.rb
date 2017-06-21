@@ -19,7 +19,7 @@ def main(input = "5+5")
 
 	end
 
-	puts total
+	return total
 
 end
 
@@ -67,3 +67,5 @@ def operator_locations(str)
 	return operator_hash
 
 end
+
+

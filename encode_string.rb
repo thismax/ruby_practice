@@ -18,3 +18,6 @@ def encode_string(str)
   end
   arr
 end  
+
+
+p encode_string('aaaabbbbaaacc')

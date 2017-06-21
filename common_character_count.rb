@@ -17,6 +17,6 @@ def common_character_count(s1, s2)
       end
     end
     
-    arr.reduce(:+)
+    return arr.reduce(:+)
     
 end

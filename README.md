@@ -26,18 +26,22 @@ Returns the total number of occurences characters are used in two strings.
 ```ruby
 s1 = "Dr. Jimes Tooper"
 s2 = "Dr. Bilb Onooo"
-common_character_count(s1,s2) #=> 8 (3 from "Dr.", 2 empty spaces, 2 lowercase "o", 1 "i")
+common_character_count(s1, s2) #=> 8 (3 from "Dr.", 2 empty spaces, 2 lowercase "o", 1 lowercase "i")
 ```
-
-
-
-
-
 
 custom_ruby_eval
 ---------------------
 
 This method takes a string that represents a valid mathematical expression and evaluates that expression to an integer without using the built-in Ruby method `eval`.  This method ignores the order of operations.
+
+encode_string
+---------------------
+
+Taks a string as an input and returns a nested array wherein each sub array has two elements:  the next character in the input string, and the number of times that character appears consecutively.
+
+```ruby
+encode_string("aaaabbbbaaacc") #=> [["a", 4], ["b", 4], ["a", 3], ["c", 2]]
+```
 
 
 strings_rearrangement
