@@ -1,4 +1,4 @@
-# Define a method that given an array, returns another array of only the unique elements from the first. Do not use the built-in uniq method.
+# => Define a method that given an array, returns another array of only the unique elements from the first. Do not use the built-in uniq method.
 # uniq([5, 5, 5, 5]) => [5]
 # uniq([1, 2, 1, 3, 3]) => [1, 2, 3]
 def uniq(arr)
