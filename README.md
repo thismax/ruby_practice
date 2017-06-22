@@ -107,6 +107,15 @@ Takes a string and returns an array of the characters that occur more than once.
 non_unique_letters("How come that's different?") #=> ["o", " ", "e", "t", "f"]
 ```
 
+pig_latin
+---------------------
+
+Takes an English sentence (string) and turns it into Pig Latin!
+
+```ruby
+pig_latin("now I am become death the destroyer of worlds") #=> "ownay Iay amay ecomebay eathday ethay estroyerday ofay orldsway"
+```
+
 strings_rearrangement
 ---------------------
 
