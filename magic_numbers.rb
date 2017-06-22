@@ -26,6 +26,3 @@ def magic_numbers(n)
   arr
 
 end
-
-
-p magic_numbers(8)
