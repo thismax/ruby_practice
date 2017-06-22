@@ -88,6 +88,17 @@ Define a magic number as a number whos digts sum to 7 (e.g., 34).  This method r
 magic_numbers(8) #=> [7, 16, 25, 34, 43, 52, 59, 61]
 ```
 
+max_consecutive_sum
+---------------------
+
+Takes an array of integers and an integer parameter `k` as input and returns the maxium sum of `k` consecutive elements in the array.
+
+```ruby
+max_consecutive_sum([5,10,1,2,7,7,7,1], 2) #=> 15
+max_consecutive_sum([5,10,1,2,7,7,7,1], 3) #=> 21
+```
+
+
 
 strings_rearrangement
 ---------------------
