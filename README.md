@@ -79,6 +79,16 @@ An isogram is a word of only non-repeating letters.  This method takes two isogr
 isogram_matcher("pathfinder", "dumbwaiter") #=> [2, 6]
 ```
 
+magic_numbers
+---------------------
+
+Define a magic number as a number whos digts sum to 7 (e.g., 34).  This method returns an array of the first `n` magic numbers.
+
+```ruby
+magic_numbers(8) #=> [7, 16, 25, 34, 43, 52, 59, 61]
+```
+
+
 strings_rearrangement
 ---------------------
 
