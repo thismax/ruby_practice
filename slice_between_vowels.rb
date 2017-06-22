@@ -4,6 +4,7 @@ def is_vowel?(ch)
 end
 
 def slice_between_vowels(word)
+  
   left_idx = 0
   right_idx = word.length - 1
 

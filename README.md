@@ -136,6 +136,15 @@ strings_rearrangement(["aba", "bbb", "bab"]) #=> false
 strings_rearrangement(["ab", "bb", "aa"]) #=> true (strings can be rearranged as "aa", "ab", "bb")
 ```
 
+word_with_most_repeats
+---------------------
+
+Takes an English sentence (string) and returns the word with the greatest number of repeated letters.
+
+```ruby
+word_with_most_repeats("Every act of perception, is to some degree an act of creation, and every act of memory is to some degree an act of imagination.") #=> "imagination."
+```
+
 xbonacci
 ---------------------
 
