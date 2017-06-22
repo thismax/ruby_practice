@@ -52,16 +52,6 @@ Takes an array and a positive integer parameter `k` and returns the input array 
 extract_each_kth([1, 2, 3, 4, 9, 10, 7], 3) #=> [1, 2, 4, 9, 7]
 ```
 
-strings_rearrangement
----------------------
-
-Checks to see if, in an array of equal length strings, it's possible to rearrange the strings such that the strings at consecutive positions in the array differ by exactly one character.
-
-```ruby
-strings_rearrangement(["aba", "bbb", "bab"]) #=> false
-strings_rearrangement(["ab", "bb", "aa"]) #=> true (strings can be rearranged as "aa", "ab", "bb")
-```
-
 fibonacci
 ---------------------
 
@@ -73,10 +63,30 @@ fibonacci(6) => [0, 1, 1, 2, 3, 5]
 
 first_last_indices
 ---------------------
+
 Takes a string and returns a hash in which each key is a character in the string and each value is an array of the first and last indices at which the character occurs.  If the character occurs only once, the array contains the index at which that character occurs.
 
 ```ruby
 first_last_indices("apples and pears") #=> {"a"=>[0, 13], "p"=>[1, 11], "l"=>[3], "e"=>[4, 12], "s"=>[5, 15], " "=>[6, 10], "n"=>[8], "d"=>[9], "r"=>[14]}
+```
+
+isogram_matcher
+---------------------
+
+An isogram is a word of only non-repeating letters.  This method takes two isograms (as strings) with identical lengths and returns an array of two elements: the first element is the number of letters matched in both words at the same position, and the second is the number of letters matched in both words but not in the same position.
+
+```ruby
+isogram_matcher("pathfinder", "dumbwaiter") #=> [2, 6]
+```
+
+strings_rearrangement
+---------------------
+
+Checks to see if, in an array of equal length strings, it's possible to rearrange the strings such that the strings at consecutive positions in the array differ by exactly one character.
+
+```ruby
+strings_rearrangement(["aba", "bbb", "bab"]) #=> false
+strings_rearrangement(["ab", "bb", "aa"]) #=> true (strings can be rearranged as "aa", "ab", "bb")
 ```
 
 xbonacci
