@@ -3,7 +3,7 @@
 chunk
 ---------------------
 
-This method takes an array of arbitrary length and a number parameter and returns a nested array and "chunks" the array's elements into subarrays of a specified length.  Functionally similar to the built-in Ruby method `each_slice`.
+Takes an array of arbitrary length and a number parameter and returns a nested array and "chunks" the array's elements into subarrays of a specified length.  Functionally similar to the built-in Ruby method `each_slice`.
 
 
 combine_hashes
@@ -37,12 +37,20 @@ This method takes a string that represents a valid mathematical expression and e
 encode_string
 ---------------------
 
-Taks a string as an input and returns a nested array wherein each sub array has two elements:  the next character in the input string, and the number of times that character appears consecutively.
+Takes a string as an input and returns a nested array wherein each sub array has two elements:  the next character in the input string, and the number of times that character appears consecutively.
 
 ```ruby
 encode_string("aaaabbbbaaacc") #=> [["a", 4], ["b", 4], ["a", 3], ["c", 2]]
 ```
 
+extract_each_kth
+---------------------
+
+Takes an array and a positive integer parameter `k` and returns the input array with each `k`th element removed.
+
+```ruby
+extract_each_kth([1, 2, 3, 4, 9, 10, 7], 3) #=> [1, 2, 4, 9, 7]
+```
 
 strings_rearrangement
 ---------------------
