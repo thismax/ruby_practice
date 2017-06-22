@@ -107,6 +107,16 @@ Takes a string and returns an array of the characters that occur more than once.
 non_unique_letters("How come that's different?") #=> ["o", " ", "e", "t", "f"]
 ```
 
+pair_product
+---------------------
+
+Takes an array of integers and a target product (also an integer).  Returns a boolean indicating the existence of a pair of elements in the array whose product is equal to the target product.  Elements are not to be multiplied by themselves, nor are they their own products.
+
+```ruby
+pair_product?([3, 5, 10, 100, 9], 45) #=> true
+pair_product?([3, 5, 10, 100, 9], 46) #=> false
+```
+
 pig_latin
 ---------------------
 
