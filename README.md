@@ -71,7 +71,13 @@ Returns an array of the first `n` terms in [the Fibonacci Sequence](https://en.w
 fibonacci(6) => [0, 1, 1, 2, 3, 5]
 ```
 
+first_last_indices
+---------------------
+Takes a string and returns a hash in which each key is a character in the string and each value is an array of the first and last indices at which the character occurs.  If the character occurs only once, the array contains the index at which that character occurs.
 
+```ruby
+first_last_indices("apples and pears") #=> {"a"=>[0, 13], "p"=>[1, 11], "l"=>[3], "e"=>[4, 12], "s"=>[5, 15], " "=>[6, 10], "n"=>[8], "d"=>[9], "r"=>[14]}
+```
 
 xbonacci
 ---------------------

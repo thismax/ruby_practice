@@ -1,5 +1,3 @@
-# Write a method that, given a string, returns a hash in which each key is a character in the string and each value is an array of the first and last indices where that character occurs. If the character occurs only once, the array should contain a single index. Consider defining helper methods.
-# first_last_indices("banana") => {"b" => [0], "a" => [1, 5], "n" => [2, 4]}
 def first_last_indices(str)
   hash = Hash.new(0)
   str.chars.each do |ch|
