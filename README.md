@@ -91,14 +91,21 @@ magic_numbers(8) #=> [7, 16, 25, 34, 43, 52, 59, 61]
 max_consecutive_sum
 ---------------------
 
-Takes an array of integers and an integer parameter `k` as input and returns the maxium sum of `k` consecutive elements in the array.
+Takes an array of integers and an integer parameter `k` as inputs and returns the maxium possible sum of `k` consecutive elements in the array.
 
 ```ruby
 max_consecutive_sum([5,10,1,2,7,7,7,1], 2) #=> 15
 max_consecutive_sum([5,10,1,2,7,7,7,1], 3) #=> 21
 ```
 
+non_unique_letters
+---------------------
 
+Takes a string and returns an array of the characters that occur more than once.
+
+```ruby
+non_unique_letters("How come that's different?") #=> ["o", " ", "e", "t", "f"]
+```
 
 strings_rearrangement
 ---------------------
