@@ -68,7 +68,7 @@ fibonacci
 Returns an array of the first `n` terms in [the Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
 
 ```ruby
-fibs(6) => [0, 1, 1, 2, 3, 5]
+fibonacci(6) => [0, 1, 1, 2, 3, 5]
 ```
 
 
