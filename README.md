@@ -126,10 +126,20 @@ Takes an English sentence (string) and turns it into Pig Latin!
 pig_latin("now I am become death the destroyer of worlds") #=> "ownay Iay amay ecomebay eathday ethay estroyerday ofay orldsway"
 ```
 
+products_except
+---------------------
+
+Takes an array of numbers and returns an array of products computed when each element is removed from the array.
+
+```ruby
+products_except_me([4, 5, 6]) #=> [30, 24, 20] (remove 4, 5*6 = 30, remove 5, 4*6=24, remove 6, 4*5 = 20)
+```
+
+
 reverse_parentheses
 ---------------------
 
-Takes a string and reverses substrings within parenthesis, starting with the innermost string
+Takes a string and reverses substrings within parenthesis, starting with the innermost parenthetical.
 
 ```ruby
 reverse_parentheses("(Of one that (loved not (wisely) but (too) well))") #=> "loved not ylesiw but oot well taht eno fO"
