@@ -31,7 +31,7 @@ def molecule_selector (lib)
   
   ic50_limit = ic50_array.sort[0..per_20].max
   
-  prospective_molecules1= []
+  prospective_molecules1 = []
   prospective_molecules2 = []
   
   lib.each do |molecule, sub_lib|
