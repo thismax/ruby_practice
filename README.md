@@ -126,6 +126,16 @@ Takes an English sentence (string) and turns it into Pig Latin!
 pig_latin("now I am become death the destroyer of worlds") #=> "ownay Iay amay ecomebay eathday ethay estroyerday ofay orldsway"
 ```
 
+reverse_parentheses
+---------------------
+
+Takes a string and reverses substrings within parenthesis, starting with the innermost string
+
+```ruby
+reverse_parentheses("(Of one that (loved not (wisely) but (too) well))") #=> "loved not ylesiw but oot well taht eno fO"
+```
+
+
 strings_rearrangement
 ---------------------
 

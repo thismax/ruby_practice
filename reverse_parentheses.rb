@@ -7,7 +7,7 @@ def reverse_parentheses(s)
 	  s[left_i..right_i] = s[left_i+1...right_i].reverse
 	end
 	
-  reverseParentheses(s) if s.include?("(")
+  reverse_parentheses(s) if s.include?("(")
   return s
 
 end
