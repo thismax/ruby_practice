@@ -62,6 +62,16 @@ For example, `input_array = ["aba", "bbb", "bab"]`, the output should be
 
 With `input_array = ["ab", "bb", "aa"]`, the output should be `true`, because strings can be rearranged in the following way: "aa", "ab", "bb".
 
+fibonacci
+---------------------
+
+Returns an array of the first `n` terms in [the Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
+
+```ruby
+fibs(6) => [0, 1, 1, 2, 3, 5]
+```
+
+
 
 xbonacci
 ---------------------
