@@ -57,10 +57,10 @@ strings_rearrangement
 
 Checks to see if, in an array of equal length strings, it's possible to rearrange the strings such that the strings at consecutive positions in the array differ by exactly one character.
 
-For example, `input_array = ["aba", "bbb", "bab"]`, the output should be
-`strings_rearrangement(input_array) = false`;
-
-With `input_array = ["ab", "bb", "aa"]`, the output should be `true`, because strings can be rearranged in the following way: "aa", "ab", "bb".
+```ruby
+strings_rearrangement(["aba", "bbb", "bab"]) #=> false
+strings_rearrangement(["ab", "bb", "aa"]) #=> true (strings can be rearranged as "aa", "ab", "bb")
+```
 
 fibonacci
 ---------------------
