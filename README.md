@@ -136,6 +136,16 @@ strings_rearrangement(["aba", "bbb", "bab"]) #=> false
 strings_rearrangement(["ab", "bb", "aa"]) #=> true (strings can be rearranged as "aa", "ab", "bb")
 ```
 
+uniques
+---------------------
+
+Takes two arrays and returns a new array of elements unique among both arrays (but not necessarily within the array it occurs).
+
+```ruby
+uniqs(([1, 1, 3, 6], [4, 3, 6])) #=> [1, 4]
+uniqs(([10, 8, 6], [10, 8, 6])) #=> []
+```
+
 word_with_most_repeats
 ---------------------
 
