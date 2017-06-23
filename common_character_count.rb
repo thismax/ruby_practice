@@ -10,11 +10,13 @@ def common_character_count(s1, s2)
     arr = []
     
     common_ch.each do |el|
+
       if s1.count(el) < s2.count(el)
         arr << s1.count(el)
       else
         arr << s2.count(el)
       end
+      
     end
     
     return arr.reduce(:+)

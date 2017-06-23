@@ -6,6 +6,6 @@ def pair_product?(arr, target_product)
     end
   end
   
-  false
+  return false
   
 end

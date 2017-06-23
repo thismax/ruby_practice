@@ -1,12 +1,13 @@
-def combine (hash1, hash2)
+def combine(hash1, hash2)
   
   hash1.each do |k, v|
+
     if hash2.has_key?(k)
       hash1[k] = [v, hash2[k]]
     end
     
   end
   
-  hash2.merge(hash1)
+  return hash2.merge(hash1)
   
 end

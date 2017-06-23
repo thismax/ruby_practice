@@ -6,6 +6,6 @@ def max_consecutive_sum(numbers, k)
         s[i+1]=s[i]+number[i]
     end
     
-    (0..n-k).map{|i| s[i+k]-s[i]}.max
+    return (0..n-k).map{|i| s[i+k]-s[i]}.max
     
 end

@@ -5,6 +5,10 @@ chunk
 
 Takes an array of arbitrary length and a number parameter and returns a nested array and "chunks" the array's elements into subarrays of a specified length.  Functionally similar to the built-in Ruby method `each_slice`.
 
+```ruby
+chunk([1, 2, 3, 4, 5, 6],4) #=> [[1, 2, 3, 4], [5, 6]]
+```
+
 
 combine_hashes
 ---------------------
@@ -33,6 +37,10 @@ custom_ruby_eval
 ---------------------
 
 This method takes a string that represents a valid mathematical expression and evaluates that expression to an integer without using the built-in Ruby method `eval`.  This method ignores the order of operations.
+
+```ruby
+main("6+4/2") #=> 5
+```
 
 encode_string
 ---------------------
