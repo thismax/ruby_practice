@@ -21,7 +21,7 @@ combine(hash_a, hash_b) #=> {:a => [1,2], :b => 2, :c => 3, :d => 4, :e => 5}
 common_character_count
 ---------------------
 
-Returns the total number of occurences characters are used in two strings.
+Returns the total number of occurrences characters are used in two strings.
 
 ```ruby
 s1 = "Dr. Jimes Tooper"
@@ -82,7 +82,7 @@ isogram_matcher("pathfinder", "dumbwaiter") #=> [2, 6]
 magic_numbers
 ---------------------
 
-Define a magic number as a number whos digts sum to 7 (e.g., 34).  This method returns an array of the first `n` magic numbers.
+Define a magic number as a number whose digits sum to 7 (e.g., 34).  This method returns an array of the first `n` magic numbers.
 
 ```ruby
 magic_numbers(8) #=> [7, 16, 25, 34, 43, 52, 59, 61]
@@ -91,7 +91,7 @@ magic_numbers(8) #=> [7, 16, 25, 34, 43, 52, 59, 61]
 max_consecutive_sum
 ---------------------
 
-Takes an array of integers and an integer parameter `k` as inputs and returns the maxium possible sum of `k` consecutive elements in the array.
+Takes an array of integers and an integer parameter `k` as inputs and returns the maximum possible sum of `k` consecutive elements in the array.
 
 ```ruby
 max_consecutive_sum([5,10,1,2,7,7,7,1], 2) #=> 15
@@ -178,7 +178,7 @@ word_with_most_repeats("Every act of perception, is to some degree an act of cre
 xbonacci
 ---------------------
 
-The fibonacci sequence takes the previous two numbers in the sequence and add them together to create the next number.  In xbonacci, the sum of the previous `x` numbers (instead of the previous 2 numbers) of the sequence becomes the next number in the sequence.  This method takes two arguments: the starting sequence with `x` number of elements and an integer `n`. The method then returns the first `n` elements in the given sequence.
+The Fibonacci sequence takes the previous two numbers in the sequence and adds them together to create the next number.  In xbonacci, the sum of the previous `x` numbers (instead of the previous 2 numbers) of the sequence becomes the next number in the sequence.  This method takes two arguments: the starting sequence with `x` number of elements and an integer `n`. The method then returns the first `n` elements in the given sequence.
 
 ```ruby
 xbonacci([1, 1], 5) => [1, 1, 2, 3, 5]
